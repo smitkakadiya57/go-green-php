@@ -1,0 +1,57 @@
+.user_inter{
+    display: grid;
+  grid-template-areas:
+    'ut ut'
+    'ud ua ';
+   
+  grid-gap: 1rem;
+  margin-top: 5rem;
+}
+
+.user_title{
+    grid-area: ut;
+    margin-left:5rem;
+    font-size: 1.3rem;
+}
+.user_details{
+    grid-area: ud;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.user_details li  p{
+   font-size: 1.5rem;
+   margin-left: 1.5rem;
+}
+.user_details li{
+    list-style: none;
+    display: flex;
+    margin: 0.2rem;
+    align-items: center;
+}
+.user_details li i{
+    font-size: 2rem;
+    background: rgb(241, 241, 241);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+}
+.user_acccess{
+    grid-area: ua;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.user_acccess li{
+    list-style: none;
+    margin: 0.3rem;
+    font-size: 1.2rem;
+}
+.user_acccess li i {
+    font-size: 1.3rem;
+    color: green;
+margin: 0.2rem;
+}

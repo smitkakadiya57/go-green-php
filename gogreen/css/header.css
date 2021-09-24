@@ -1,0 +1,117 @@
+.header{
+    /* border: 2px solid red ; */
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(253, 253, 253);
+    flex-wrap: wrap;
+    
+}
+.header img{
+    width: 5rem;
+}
+.header .title {
+    display: flex;
+    align-items:center;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    text-shadow: 0px 3px 2px grey;
+    color: rgb(4, 209, 4);
+    
+}
+.header .slogan{
+    display: flex;
+    align-items:flex-end;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    
+} 
+.header .slogan h4{
+    font-family: 'Merienda', cursive;
+    color: green;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(1, 144, 1);
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.nav_bar .hamburger {
+    display: none;
+}
+
+.nav_bar .nav_menu ul {
+    display: flex;
+}
+
+.nav_bar .nav_menu ul li {
+    list-style: none;
+
+}
+
+.nav_bar .nav_menu ul li a {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+   
+}
+.nav_menu ul li:hover{
+    font-weight: bold;
+}
+.nav_btn button {
+    height: 2rem;
+     width: 8rem;
+    background: white;
+    outline: none;
+    border: 0.05rem solid green;
+    border-radius: 0.4rem;
+    color: green;
+
+}
+.nav_btn button:hover{
+    background: rgb(225, 250, 218);
+    font-weight: bold;
+
+}
+.nav_responsive .hamburger {
+    display: block;
+    font-size: 2rem;
+   color: rgb(255, 255, 255);
+   
+   
+}
+
+.nav_responsive {
+    display: block;
+   
+
+}
+
+.nav_responsive .nav_menu {
+    display: none;
+    transition: all 1s ease-in-out;
+    pointer-events: auto;
+
+}
+
+.nav_responsive .nav_menu ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_responsive .nav_menu ul li {
+    margin-bottom: 1rem;
+}
+.nav_responsive .nav_btn {
+    display: none;
+    padding-bottom: 1rem;
+}
+
+.nav_responsive .nav_btn button {
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+}

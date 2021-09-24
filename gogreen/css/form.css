@@ -1,0 +1,194 @@
+.register_form {
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 45rem;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0.2rem black;
+    margin-top: 3%;
+
+}
+
+.register_left {
+    border-right: 0.1rem solid rgb(160, 161, 160);
+    padding: 1rem;
+    background: rgb(239, 255, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.register_left p {
+    font-family: 'Merienda', cursive;
+    color: green;
+    font-size: 1.2rem;
+}
+
+.register_left img {
+    width: 6rem;
+
+}
+
+.register_left h1 {
+
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0px 3px 2px grey;
+    color: rgb(4, 209, 4);
+}
+
+
+
+.register_right {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+form {
+    width: 100%;
+    margin-left: 5%;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+form h2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merienda', cursive;
+    font-size: 2rem;
+    color: green;
+}
+
+form .form_field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+    margin: 0.5rem;
+    width: 80%;
+}
+
+form .form_field label {
+
+    text-align: end;
+    margin-right: 1rem;
+}
+
+form .form_field label span {
+    color: red;
+}
+
+form .form_field input {
+    outline: none;
+    border: 0.1rem solid rgb(126, 121, 121);
+    height: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+form .form_field input:hover {
+    border: 0.15rem solid rgb(35, 185, 231);
+}
+
+form .form_check {
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+form .form_check input {
+    outline: none;
+    border: 0.1rem solid rgb(126, 121, 121);
+    height: 1rem;
+}
+
+form button {
+    height: 2rem;
+    width: 10rem;
+    background: none;
+    border: 0.1rem solid green;
+    color: green;
+    transition: all 0.1s ease-in;
+    font-size: 1.2rem;
+
+}
+
+form button:hover {
+    border: 0.5rem;
+    background: green;
+    color: white;
+    box-shadow: 0 0.05rem 0.1rem black;
+}
+
+.success {
+    background: rgb(149, 250, 149);
+    color: green;
+}
+
+.danger {
+    background: rgb(255, 184, 184);
+    color: rgb(255, 0, 0);
+}
+
+.alert_message {
+    box-shadow: 0 0 0.2rem black;
+    padding: 0.5rem;
+}
+
+.alert_message h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 12px;
+    }
+
+    .register_form {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .register_left {
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+
+    }
+
+    .register_left h1 {
+        margin-left: 3%;
+    }
+
+    .register_left p {
+        display: none;
+    }
+
+    .register_right {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .register_form {
+        width: 100%;
+    }
+
+
+}

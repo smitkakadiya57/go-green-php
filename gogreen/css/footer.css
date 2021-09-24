@@ -1,0 +1,22 @@
+footer{
+    background: rgb(219, 235, 219);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f_left ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+.f_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f_left ul li i {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    color: rgb(93, 93, 93);
+}
