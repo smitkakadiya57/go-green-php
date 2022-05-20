@@ -1,13 +1,13 @@
-# go-green-php
+# Go Green
 an E-Commerce Website
 
 👋👋 Hello Everyone, This is an Online Agricultural Equipment Buying site.
 
 <h3> Technology Used :</h3>
-**Front-End:**  HTML, CSS, JavaSccript </br>
-**Back-End:** PHP </br>
-**Database:** MySQL </br>
-**Testing:** Xampp, phpmyadmin </br>
+<b> Front-End : </b>  HTML, CSS, JavaSccript </br>
+<b>Back-End : </b> PHP </br>
+<b>Database : </b> MySQL </br>
+<b>Testing : </b> Xampp, phpmyadmin </br> </br>
 
 👇 Here is the working demonstration of website
 
