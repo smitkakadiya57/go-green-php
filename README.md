@@ -4,7 +4,7 @@ an E-Commerce Website
 👋👋 Hello Everyone, This is an Online Agricultural Equipment Buying site.
 
 <h3> Technology Used :</h3>
-<b> Front-End : </b>  HTML, CSS, JavaSccript </br>
+<b> Front-End : </b>  HTML, CSS, JavaScript </br>
 <b>Back-End : </b> PHP </br>
 <b>Database : </b> MySQL </br>
 <b>Testing : </b> Xampp, phpmyadmin </br> </br>
